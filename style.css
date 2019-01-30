@@ -1,0 +1,192 @@
+body {
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 25px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header"
+                         "firstBigPic"
+                         "firstP"
+                         "firstSmallPic"
+                         "secondP"
+                         "secondSmallPic"
+                         "thirdP"
+                         "thirdSmallPic"
+                         "fourthP"
+                         "fourthSmallPic"
+                         "fifthP"
+                         "secondBigPic"
+                         "sixthP"
+                         "fifthSmallPic"
+                         "seventhP"
+                         "sixthSmallPic"
+                         "eighthP"
+                         "seventhSmallPic"
+                         "ninthP"
+                         "eighthSmallPic"
+                         "tenthP"
+                         "thirdBigPic"
+                         "eleventhP"
+                         "footer";
+}
+
+header {
+    grid-area: header;
+
+}
+
+.firstBigPic {
+    grid-area: firstBigPic;
+    
+}
+
+.firstP {
+    grid-area: firstP;
+}
+
+.firstSmallPic {
+    grid-area: firstSmallPic;
+    
+}
+
+.secondP {
+    grid-area: secondP;
+}
+
+.secondSmallPic {
+    grid-area: secondSmallPic;
+}
+
+.thirdP {
+    grid-area: thirdP;
+}
+
+.thirdSmallPic {
+    grid-area: thirdSmallPic;
+}
+
+.fourthP {
+    grid-area: fourthP;
+}
+
+.fourthSmallPic {
+    grid-area: fourthSmallPic;
+}
+
+.fifthP {
+    grid-area: fifthP;
+}
+
+.secondBigPic {
+    grid-area: secondBigPic;
+}
+
+.sixthP {
+    grid-area: sixthP;
+}
+
+.fifthSmallPic {
+    grid-area: fifthSmallPic;
+}
+
+.seventhP {
+    grid-area: seventhP;
+}
+
+.sixthSmallPic {
+    grid-area: sixthSmallPic;
+}
+
+.eighthP {
+    grid-area: eighthP;
+}
+
+.seventhSmallPic {
+    grid-area: seventhSmallPic;
+}
+
+.ninthP {
+    grid-area: ninthP;
+}
+
+.eighthSmallPic {
+    grid-area: eighthSmallPic;
+}
+
+.tenthP {
+    grid-area: tenthP;
+}
+
+.thirdBigPic {
+    grid-area: thirdBigPic;
+}
+
+.eleventhP {
+    grid-area: eleventhP;
+}
+
+footer {
+    grid-area: footer;
+}
+
+div {
+    width: 100%;
+    height: auto;
+}
+
+
+
+@media screen and (min-width: 540px) {
+    body {
+        grid-template-rows: 25px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "header header"
+                             "firstBigPic firstBigPic"
+                             "firstP firstP"
+                             "firstSmallPic secondSmallPic"
+                             "secondP thirdP"
+                             "thirdSmallPic fourthSmallPic"
+                             "fourthP fifthP"
+                             "secondBigPic secondBigPic"
+                             "sixthP sixthP"
+                             "fifthSmallPic sixthSmallPic"
+                             "seventhP eighthP"
+                             "seventhSmallPic eighthSmallPic"
+                             "ninthP tenthP"
+                             "thirdBigPic thirdBigPic"
+                             "eleventhP eleventhP"
+                             "footer footer";
+    }
+
+
+    
+}
+
+
+
+@media screen and (min-width: 1088px) {
+    body {
+        grid-template-rows: 25px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "header header header header"
+                             "firstBigPic firstBigPic firstBigPic firstBigPic" 
+                             "firstP firstP firstP firstP"                         
+                             "firstSmallPic secondSmallPic thirdSmallPic fourthSmallPic"
+                             "secondP thirdP fourthP fifthP"
+                             "secondBigPic secondBigPic secondBigPic secondBigPic"
+                             "sixthP sixthP sixthP sixthP"
+                             "fifthSmallPic sixthSmallPic seventhSmallPic eighthSmallPic"
+                             "seventhP eighthP ninthP tenthP"
+                             "thirdBigPic thirdBigPic thirdBigPic thirdBigPic"
+                             "eleventhP eleventhP eleventhP eleventhP"
+                             "footer footer footer footer";
+
+    }
+    
+    
+}
+
+* {
+    border: 2px rgb(235, 61, 108) solid;
+}
